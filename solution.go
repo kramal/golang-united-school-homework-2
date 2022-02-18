@@ -14,6 +14,7 @@ const SidesTriangle = 3
 const SidesSquare = 4
 const SidesCircle = 0
 
+// return 0 if sides not ok
 func CalcSquare(sideLen float64, sidesNum int) float64 {
 	if sidesNum == SidesTriangle {
 		return (math.Sqrt(3) / 4) * math.Pow(sideLen, 2)
